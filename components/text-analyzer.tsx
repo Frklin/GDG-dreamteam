@@ -65,7 +65,7 @@ export default function TextAnalyzer() {
                 id="text"
                 value={text}
                 onChange={(e) => setText(e.target.value)}
-                placeholder="Paste your paragraph here... Use **text** for bold formatting."
+                placeholder="Paste your paragraph here"
                 className="min-h-[150px]"
                 required
               />

@@ -50,7 +50,7 @@ export async function analyzeText(text: string, keyword: string): Promise<string
         })
 
       // Underline the whole relevant sentence and add dyslexia-friendly class
-      return `<span class="underline decoration-blue-500 decoration-2 dyslexia-friendly">${processedSentence}</span>`
+      return `<span class="decoration-blue-500 decoration-2 dyslexia-friendly">${processedSentence}</span>`
     } else {
       // Make non-relevant text semi-transparent
       return `<span class="opacity-20">${sentence}</span>`
